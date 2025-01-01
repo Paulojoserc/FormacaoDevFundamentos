@@ -11,7 +11,7 @@
                 border: 5px solid yellow;
                 display: flex;
                 flex-direction: row; /* define o eixo principal*/
-                justify-content: flex-start; /*posiciona no eixo principal*/
+                justify-content: start; /*posiciona no eixo principal*/
                 align-items: start; /*posocopna no exio cruzado*/
             }
             .caixa{
@@ -28,7 +28,9 @@
       <div class="externa">
         <div class="caixa">#1</div>
         <div class="caixa">#2</div>
-        <div class="caixa">#3</div>
+        <div class="caixa" style="flex-grow: 1;">#3</div>
+        <div class="caixa">#4</div>
+        <div class="caixa">#5</div>
       </div>
     </body>
 </html>
